@@ -14,15 +14,22 @@ First, create a local lib in terminal (EXAMPLE below-edit these to make your spe
 
 If you ever need to add new one packages to R environ, open an OneDemand R session in the correct version you want to work in (for afni, typically 3.6.0, but keep up to date with this by going to afni page for that package).
 
-*install.packages("packagename", lib="~/R/libs")* #change this to whatever lib you want.
+> install.packages("packagename", lib="~/R/libs")
+
+#change this to whatever lib you want.
 
 In script, so R doesn't crash out, include:
 
-*export R_MAX_VSIZE=32000000000*
+> export R_MAX_VSIZE=32000000000
 
 
-*module load afni/20.3.00* (or whichever version you may need in the future)#makes sure script is loading proper version
+
+> module load afni/20.3.00
+
+(or whichever version you may need in the future)#makes sure script is loading proper version
 
 
-*module load r/3.6.0* (or whichever version you may need in the future) #makes sure script is loading proper version
+> module load r/3.6.0
+
+(or whichever version you may need in the future) #makes sure script is loading proper version
 
