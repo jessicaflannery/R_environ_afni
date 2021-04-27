@@ -7,6 +7,7 @@ If your working on a cluster (e.g., longleaf), you'll want to make sure your scr
 First, create a local lib in terminal (EXAMPLE below-edit these to make your specific needs):
 
 > mkdir -p ~/R/libs
+
 > echo 'R_LIBS_USER="~/R/libs"' >  $HOME/.Renviron 
 
 #this makes sure this is pulled up as your R environ. I add this to beginning of each script to make sure.
