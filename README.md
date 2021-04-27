@@ -8,6 +8,7 @@ First, create a local lib in terminal (EXAMPLE below-edit these to make your spe
 
 > mkdir -p ~/R/libs
 > echo 'R_LIBS_USER="~/R/libs"' >  $HOME/.Renviron 
+
 #this makes sure this is pulled up as your R environ. I add this to beginning of each script to make sure.
 
 If you ever need to add new one packages to R environ, open an OneDemand R session in the correct version you want to work in (for afni, typically 3.6.0, but keep up to date with this by going to afni page for that package).
